@@ -9,7 +9,7 @@ project = AIProjectClient.from_connection_string(
 
 chat = project.inference.get_chat_completions_client()
 response = chat.complete(
-    model="gpt-4o-mini",
+    model="gpt-4o",
     messages=[
         {
             "role": "system",
